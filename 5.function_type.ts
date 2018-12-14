@@ -58,3 +58,4 @@ function sum7(x: number, y?: number) {
 }
 sum7(1);
 sum7(1, 2);
+// TypeScript中重载的实现，是为了静态检查时及时发现错误的调用，顺便明示给其他调用者该函数有不同的调用形式
