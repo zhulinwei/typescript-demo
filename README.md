@@ -1,7 +1,7 @@
 # typescript-demo
 
 |#|title|describe|
-|__-|-----|--------|
+|-|-----|--------|
 |1|[hello](./1.hello.ts)|hello world|
 |2|[basic___type](./2.basic_type.ts)|基本数据类型|
 |3|[object_type](./3/object_type.ts)|对象类型|
