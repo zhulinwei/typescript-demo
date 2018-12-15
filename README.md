@@ -11,4 +11,5 @@
 |7|[type_alias](./7.type_alias.ts)|类型别名|
 |8|[tuple](./8.tuple.ts)|元组类型|
 |9|[enum](./9.enum.ts)|枚举类型|
+|10|[class](./10.class.ts)|类|
 
