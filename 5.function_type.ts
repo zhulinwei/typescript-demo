@@ -10,10 +10,10 @@ sum1(1, 2);
 // sum(1, 2, 3);
 
 // 函数表达式，=>不是es6的箭头函数，它表示左边是输入类型，右边是输出类型
+// 很多时候我们可能会省略=> number，这样的话代码只对等号右侧的匿名函数进行了类型定义，而等号的作出实际上是通过赋值操作进行类型推论而推断出来的
 let sum2: (x: number, y: number) => number = function(x: number, y: number): number {
   return x + y;
 }
-
 sum2(1, 2);
 
 // 接口定义函数类型
