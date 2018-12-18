@@ -1,7 +1,7 @@
 // number 类型
 let age1: number = 22;
 let age2: number = 0x2;
-let age3: number = 0101;
+// let age3: number = 0101;
 let age4: number = NaN;
 let age5: number = Infinity;
 
@@ -28,3 +28,6 @@ let any3: any = 'Level.Z';
 // 联合类型
 let union1: string | number = 22;
 let union2: string | number = 'Level.Z';
+
+let date1: Date = new Date();
+let date2: Date = new Date();

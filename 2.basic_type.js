@@ -1,7 +1,7 @@
 // number 类型
 var age1 = 22;
 var age2 = 0x2;
-var age3 = 0101;
+// let age3: number = 0101;
 var age4 = NaN;
 var age5 = Infinity;
 // string 类型，注意：name是关键字，不能直接在ts文件中定义
@@ -22,3 +22,5 @@ var any3 = 'Level.Z';
 // 联合类型
 var union1 = 22;
 var union2 = 'Level.Z';
+var date1 = new Date();
+var date2 = new Date();
