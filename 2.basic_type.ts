@@ -17,7 +17,7 @@ let nullValue: null = null;
 let undefinedValue: undefined = undefined;
 
 // void 类型，用处不大，只能复制为null和undefined类型
-let void1: void = null;
+// let void1: void = null;
 let void2: void = undefined;
 
 // any 类型，任意值，如果变量在声明的时候未指定类型，则默认为any类型，也不会被类型检查
@@ -31,3 +31,4 @@ let union2: string | number = 'Level.Z';
 
 let date1: Date = new Date();
 let date2: Date = new Date();
+

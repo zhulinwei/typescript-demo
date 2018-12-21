@@ -1,3 +1,4 @@
+"use strict";
 function getAge(age) {
     return age;
 }

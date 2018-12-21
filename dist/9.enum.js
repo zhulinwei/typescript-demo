@@ -1,3 +1,4 @@
+"use strict";
 // 枚举类型用于取值被限定在一定范围内的场景
 var Days1;
 (function (Days1) {

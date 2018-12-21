@@ -1,4 +1,6 @@
+"use strict";
 // 泛型是指在定义函数、接口或类时，不预先指定具体的类型，而是在指定的时候再指定类型的一种特性
+Object.defineProperty(exports, "__esModule", { value: true });
 // 假设存在函数，其任务是负责输出传入值，我们可以这样写：
 function task1(value) {
     return value;
@@ -56,26 +58,23 @@ function task10(value) {
     console.log(value.length);
     return value;
 }
-var task11 = function (value) {
+let task11 = function (value) {
     return value;
 };
 task11(22);
 task11('Level.Z');
-var task12 = function (value) {
+let task12 = function (value) {
     return value;
 };
 task12(12);
-var task13 = function (value) {
+let task13 = function (value) {
     return value;
 };
 task13('Level.Z');
 // 泛型类
-var Person1 = /** @class */ (function () {
-    function Person1() {
-    }
-    return Person1;
-}());
-var person1 = new Person1();
+class Person1 {
+}
+let person1 = new Person1();
 person1.age = 22;
 person1.getAge = function (age) { return age; };
 // 泛型默认值，当使用泛型而没有在代码中直接指定类型参数且从实际值参数中也无法推测出时，编译器会采用这个默认的类型

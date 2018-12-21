@@ -1,0 +1,26 @@
+{
+  "name": "typescript-demo",
+  "version": "1.0.0",
+  "description": "TypeScript Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhulinwei/typescript-demo.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Demo"
+  ],
+  "author": "Level.Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhulinwei/typescript-demo/issues"
+  },
+  "homepage": "https://github.com/zhulinwei/typescript-demo#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.18"
+  }
+}

@@ -2,7 +2,7 @@
 // 用法1：值 as 类型
 // 用户2：<类型>值
 
-function getAge1(age: string | number): number {
+function getAge1(age: string | number){
   if ((age as number)) return (age as number);
   if ((age as string)) return Number((age as string));
 }
@@ -10,7 +10,7 @@ function getAge1(age: string | number): number {
 getAge1(22);
 getAge1('22');
 
-function getAge2(age: string | number): number {
+function getAge2(age: string | number){
   if (<number>age) return <number>age;
   if (<string>age) return Number(<string>age);
 }

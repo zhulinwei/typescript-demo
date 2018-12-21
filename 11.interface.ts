@@ -2,8 +2,8 @@
 
 // 如人和狗存在进食和运动等行为，这个时候我们就可以将他们的共性提取出来做出一个定义
 interface Animal1 {
-  eat();
-  move(); 
+  eat(): void;
+  move(): void; 
 }
 
 class Dog1 implements Animal1 {
@@ -20,11 +20,11 @@ class Person1 implements Animal1 {
 
 // 一个类可以实现多个接口
 interface Animal2 {
-  eat();
+  eat(): void;
 }
 
 interface Animal3 {
-  move();
+  move(): void;
 }
 
 class Person2 implements Animal2, Animal3 {
@@ -35,7 +35,7 @@ class Person2 implements Animal2, Animal3 {
 
 // 接口之间也可以相互继承
 interface Animal4 extends Animal1 {
-  talk();
+  talk(): void;
 }
 
 // 接口也可以继承类
@@ -58,3 +58,4 @@ let person5: Person5 = function (age: number, name: string) {
   return true;
 }
 
+export {};

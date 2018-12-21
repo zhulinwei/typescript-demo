@@ -54,3 +54,5 @@ let person5: Person5 = {
 // 错误做法：
 // person5.age = 22;
 // person5.name = 'Level.Z';
+
+export {};

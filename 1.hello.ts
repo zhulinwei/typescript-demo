@@ -3,3 +3,5 @@ function sayHello(persion: string) {
 }
 
 console.log(sayHello('Level.Z'));
+
+export {};
