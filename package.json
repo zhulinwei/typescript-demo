@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/zhulinwei/typescript-demo#readme",
   "devDependencies": {
-    "@types/node": "^10.12.18"
+    "@types/node": "^10.12.18",
+    "reflect-metadata": "^0.1.12"
   }
 }
