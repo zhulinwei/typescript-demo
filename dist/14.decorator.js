@@ -6,6 +6,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
@@ -57,7 +60,10 @@ class User3 {
     }
 }
 __decorate([
-    validateName
+    validateName,
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", void 0)
 ], User3.prototype, "changeName", null);
 let user3 = new User3(3, 'Level.Z');
 // user3.changeName('')
@@ -90,10 +96,16 @@ class User5 {
     ;
 }
 __decorate([
-    Factory('user5_1')
+    Factory('user5_1'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", void 0)
 ], User5.prototype, "getAge", null);
 __decorate([
-    Factory('user5_2')
+    Factory('user5_2'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", void 0)
 ], User5.prototype, "getName", null);
 let user5 = new User5();
 user5.getAge();
@@ -104,7 +116,8 @@ function name(target, propertyKey) { }
 class User6 {
 }
 __decorate([
-    name
+    name,
+    __metadata("design:type", String)
 ], User6.prototype, "name", void 0);
 // 参数装饰器，参数装饰器表达式会在运行时当做函数被调用
 function required(target, propertyKey, parameterIndex) {
@@ -118,7 +131,10 @@ class User7 {
     }
 }
 __decorate([
-    __param(0, required)
+    __param(0, required),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", void 0)
 ], User7.prototype, "setName", null);
 let user7 = new User7();
 user7.setName('Level.Z');
